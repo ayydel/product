@@ -82,7 +82,7 @@ h1 {
 }
 
 button {
-    height: 3rem;
+    height: 2.5rem;
     border-radius: 10px;
     border: none;
     background: var(--price-color);
@@ -129,7 +129,7 @@ button {
     }
     h1 {
         font-size: 2rem;
-        line-height: 1.5rem;
+        line-height: 1rem;
     }
     p {
         font-weight: bold;
