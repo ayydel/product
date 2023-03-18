@@ -130,10 +130,10 @@ button {
     h1 {
         font-size: 2rem;
         line-height: 1rem;
+        padding-right: 0.5rem;
     }
     p {
         font-weight: bold;
-        padding-right: 0.5rem;
     }
     .nowrap {
         white-space: nowrap;
