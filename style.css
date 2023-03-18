@@ -53,7 +53,7 @@ p {
     flex-direction: column;
     justify-content: space-around;
     background-color: var(--white-color);
-    padding: 1.25rem 1.5rem;
+    padding: 1.25rem 1.75rem;
 }
 
 .perfume {
@@ -129,12 +129,11 @@ button {
     }
     h1 {
         font-size: 2rem;
-        line-height: 2rem;
+        line-height: 1.5rem;
     }
     p {
         font-weight: bold;
-        font-size: 0.875rem;
-        padding-right: 1rem;
+        padding-right: 0.5rem;
     }
     .nowrap {
         white-space: nowrap;
