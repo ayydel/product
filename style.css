@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+:root {
+ 
+    --body-background: hsl(30, 38%, 92%);
+    --price-color: hsl(158, 36%, 37%);
+    --font-color: hsl(228, 12%, 48%);
+    --white-color: hsl(0, 0%, 100%);
+    --h1-font-family:  'Fraunces', serif;
+    --body-font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--body-background);
+    font-family: var(--body-font-family);
+}
+
+
+p {
+    color: var(--font-color);
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.container {
+    height: 100%;
+    border-radius: 15px 15px;
+}
+
+.mobile-pic {
+    width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.desktop-pic {
+    width: 100%;
+    display: none;
+}
+
+.product-content {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--white-color);
+    padding: 1.25rem 1.5rem;
+}
+
+.perfume {
+    letter-spacing: 6px;
+}
+
+h1 {
+    font-family: var(--h1-font-family);
+    font-weight: bold;
+}
+
+.price-diff {
+    display: flex;
+    align-items: center;
+}
+
+.discount-price {
+    padding-right: 1.5rem;
+    font-size: 2.25rem;
+    font-family: var(--h1-font-family);
+    color: var(--price-color);
+}
+
+.price {
+    text-decoration: line-through;
+}
+
+button {
+    height: 3.8rem;
+    border-radius: 10px;
+    border: none;
+    background: var(--price-color);
+    color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.cart-icon {
+    padding-right: 3px;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 50%;
+        display: grid;
+        grid: auto / 1fr 1fr;
+    }
+    .desktop-pic {
+        border-radius: 15px 0 0 15px;
+        display: block;
+        height: 100%;
+    }
+    .mobile-pic {
+        display: none;
+    }
+    .product-content {
+        height: 100%;
+        border-radius: 0 15px 15px 0;
+        padding: 2rem 2.75rem;
+    }
+    h1 {
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+    p {
+        font-weight: bold;
+        font-size: 1rem;
+        padding-right: 1rem;
+        word-spacing: 0.1rem;
+        letter-spacing: 0.05rem;
+    }
+    .nowrap {
+        white-space: nowrap;
+    }
+}
+
+
+
