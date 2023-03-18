@@ -128,7 +128,7 @@ button {
         padding: 2rem 2.75rem;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 2.5rem;
     }
     p {
@@ -136,7 +136,6 @@ button {
         font-size: 1rem;
         padding-right: 1rem;
         word-spacing: 0.1rem;
-        letter-spacing: 0.05rem;
     }
     .nowrap {
         white-space: nowrap;
